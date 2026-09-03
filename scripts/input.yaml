@@ -1,0 +1,10 @@
+mode: fitting
+load_model: T21_model
+num_chains: 4
+num_warmup: 250
+num_samples: 250
+chain_method: parallel
+fit_method: mcmc
+initialisation: median
+version_photometry: /Users/jennakempster-taylor/Documents/bayesn-lsst/jkt-project/data/Foundation_DR1
+outputdir:  ../results
